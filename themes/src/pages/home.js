@@ -1,8 +1,13 @@
 import React from "react";
+// import '../css/style.min.css';
 import avt1 from '../imgs/prof/img1.png';
 import avt2 from '../imgs/prof/img2.png';
 import avt3 from '../imgs/prof/img3.png';
 import avt4 from '../imgs/prof/img4.png';
+import card1 from '../imgs/card/card1.jpg';
+import card2 from '../imgs/card/card2.jpg';
+import card3 from '../imgs/card/card3.jpg';
+import card4 from '../imgs/card/card4.jpg';
 
 
 const Home = () => {
@@ -89,9 +94,34 @@ const Home = () => {
                     <div className="btn btn-dark m-3">My Btn</div>
                 </div>
                 <div className="col-4">
+                    <div className="cardimg cdt">
+                        <img src={card1} className="card-img-top" alt="" />
+                        <div className="text"><h5>বাংলা সাহিত্য</h5>
+বাংলা ভাষায় রচিত সাহিত্যকর্ম বাংলা সাহিত্য নামে পরিচিত। আনুমানিক খ্রিষ্টীয় সপ্তম শতাব্দীর মাঝামাঝি বাংলা ভাষায় সাহিত্য রচনার সূত্রপাত হয়। খ্রিষ্টীয় দশম থেকে দ্বাদশ শতাব্দীর মধ্যবর্তী সময়ে রচিত বৌদ্ধ দোহা-সংকলন চর্যাপদ বাংলা সাহিত্যের</div>
+                    </div>
+                </div>
+                <div className="col-8">
+                    <div className="cardimg cdl">
+                        <div className="imgs"><img src={card3} className="card-img-top" alt="" /></div>
+                        <div className="text"><h5>বাংলা সাহিত্য</h5>
+বাংলা ভাষায় রচিত সাহিত্যকর্ম বাংলা সাহিত্য নামে পরিচিত। আনুমানিক খ্রিষ্টীয় সপ্তম শতাব্দীর মাঝামাঝি বাংলা ভাষায় সাহিত্য রচনার সূত্রপাত হয়। খ্রিষ্টীয় দশম থেকে দ্বাদশ শতাব্দীর মধ্যবর্তী সময়ে রচিত বৌদ্ধ দোহা-সংকলন চর্যাপদ বাংলা সাহিত্যের</div>
+                    </div>
+                </div>
+                <div className="col-8">
+                    <div className="cardimg cdr">
+                        <div className="text"><h5>বাংলা সাহিত্য</h5>
+বাংলা ভাষায় রচিত সাহিত্যকর্ম বাংলা সাহিত্য নামে পরিচিত। আনুমানিক খ্রিষ্টীয় সপ্তম শতাব্দীর মাঝামাঝি বাংলা ভাষায় সাহিত্য রচনার সূত্রপাত হয়। খ্রিষ্টীয় দশম থেকে দ্বাদশ শতাব্দীর মধ্যবর্তী সময়ে রচিত বৌদ্ধ দোহা-সংকলন চর্যাপদ বাংলা সাহিত্যের</div>
+                        <div className="imgs"><img src={card4} className="card-img-top" alt="" /></div>
+                    </div>
                 </div>
                 <div className="col-4">
-                </div><div className="col-4">
+                    <div className="cardimg cdb">
+                        <div className="text"><h5>বাংলা সাহিত্য</h5>
+বাংলা ভাষায় রচিত সাহিত্যকর্ম বাংলা সাহিত্য নামে পরিচিত। আনুমানিক খ্রিষ্টীয় সপ্তম শতাব্দীর মাঝামাঝি বাংলা ভাষায় সাহিত্য রচনার সূত্রপাত হয়। খ্রিষ্টীয় দশম থেকে দ্বাদশ শতাব্দীর মধ্যবর্তী সময়ে রচিত বৌদ্ধ দোহা-সংকলন চর্যাপদ বাংলা সাহিত্যের</div>
+                        <img src={card2} className="card-img-top" alt="" />
+                    </div>
+                </div>
+                <div className="col-4">
                     <div className="card mb-5">
                         <img src="https://via.placeholder.com/300" className="card-img-top" alt="" />
                         <div className="card-body">
@@ -100,6 +130,11 @@ const Home = () => {
                             <a href="#" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
+                </div>
+                <div className="col-6">
+                </div>
+                <div className="col-6">
+                    
                 </div>
             </div>
         </div>

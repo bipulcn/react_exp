@@ -339,3 +339,29 @@ body {
         background: darken(lightgray, 20%) !important;
     }
 }
+
+.cardimg {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+    img { margin: -20px; border-radius: 10px; width: 100%; height: 100%; object-fit: cover; }
+    .text {
+        position: relative;
+        background: white;
+        padding: 30px 10px;
+        border-radius: 10px;
+        h5 { color: $clr1; text-shadow: 0 0 5px rgba($clr1, .5); }
+    }
+}
+.cdt { img {margin-bottom: -50px; } .text {padding-top: 20px;}}
+.cdb { img {margin-top: -50px; } .text {padding-bottom: 20px;}}
+.cdl, .cdr {
+    display: flex;
+    .imgs { width: 50% !important; margin: -10px; border-radius: 10px; vertical-align: middle;   }
+    .text { padding: 20px; width: 50%; }
+}
+
+.cdl { .text *, .text{ text-align: left;} }
+.cdr { .text *, .text{ text-align: right;} }
